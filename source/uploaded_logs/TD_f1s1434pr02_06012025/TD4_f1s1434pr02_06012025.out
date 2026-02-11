@@ -1,0 +1,1209 @@
+2026-01-05 18:51:21
+Full thread dump Java HotSpot(TM) 64-Bit Server VM (24.351-b07 mixed mode):
+
+"Attach Listener" daemon prio=10 tid=0x00007fdd48002000 nid=0x33095 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"[STANDBY] ExecuteThread: '33' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdcf400b800 nid=0x35e85 in Object.wait() [0x00007fdcde4f5000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006c9055bb8> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006c9055bb8> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[STANDBY] ExecuteThread: '32' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdcf400a800 nid=0x35567 in Object.wait() [0x00007fdcde7f8000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006c6b86dc0> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006c6b86dc0> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[STANDBY] ExecuteThread: '31' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdcf4009800 nid=0xa91b in Object.wait() [0x00007fdcde6f7000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006c4f89418> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006c4f89418> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[STANDBY] ExecuteThread: '30' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdcf4008800 nid=0xa91a in Object.wait() [0x00007fdcde3f4000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006c4f8a0e8> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006c4f8a0e8> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[STANDBY] ExecuteThread: '29' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdcf4007800 nid=0x2e470 in Object.wait() [0x00007fdcdebfc000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006bfb95348> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006bfb95348> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '28' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdcf4006800 nid=0x37d4 in Object.wait() [0x00007fdcdecfd000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006bfb829b8> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006bfb829b8> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[STANDBY] ExecuteThread: '27' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdc78003800 nid=0x2393 in Object.wait() [0x00007fdcfc242000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006bf60c790> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006bf60c790> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '26' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdcf4005800 nid=0x4c17 in Object.wait() [0x00007fdcfc343000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006bf4bee88> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006bf4bee88> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '25' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdcf4004800 nid=0xa69 in Object.wait() [0x00007fdcfc646000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006bf3dc228> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006bf3dc228> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '24' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd00022800 nid=0x1c90 in Object.wait() [0x00007fdcfc444000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006be9d6ba0> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006be9d6ba0> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '23' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd00021000 nid=0x1c8f in Object.wait() [0x00007fdcfc544000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006b5370368> (a com.sun.jmx.remote.internal.ArrayNotificationBuffer)
+	at com.sun.jmx.remote.internal.ArrayNotificationBuffer.fetchNotifications(ArrayNotificationBuffer.java:449)
+	- locked <0x00000006b5370368> (a com.sun.jmx.remote.internal.ArrayNotificationBuffer)
+	at com.sun.jmx.remote.internal.ArrayNotificationBuffer$ShareBuffer.fetchNotifications(ArrayNotificationBuffer.java:227)
+	at com.sun.jmx.remote.internal.ServerNotifForwarder.fetchNotifs(ServerNotifForwarder.java:275)
+	at javax.management.remote.rmi.RMIConnectionImpl$4.run(RMIConnectionImpl.java:1290)
+	at javax.management.remote.rmi.RMIConnectionImpl$4.run(RMIConnectionImpl.java:1288)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.management.remote.rmi.RMIConnectionImpl.fetchNotifications(RMIConnectionImpl.java:1296)
+	at javax.management.remote.rmi.RMIConnectionImpl_WLSkel.invoke(Unknown Source)
+	at weblogic.rmi.internal.BasicServerRef.invoke(BasicServerRef.java:667)
+	at weblogic.rmi.internal.BasicServerRef$1.run(BasicServerRef.java:522)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:146)
+	at weblogic.rmi.internal.BasicServerRef.handleRequest(BasicServerRef.java:518)
+	at weblogic.rmi.internal.wls.WLSExecuteRequest.run(WLSExecuteRequest.java:118)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:263)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:221)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '22' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd0001f000 nid=0x19bd4 in Object.wait() [0x00007fdd76958000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006be516a40> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006be516a40> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '21' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdcf4002800 nid=0x272a in Object.wait() [0x00007fdcfc141000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006bccf52c0> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006bccf52c0> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"AD Thread Pool-CGG0" daemon prio=10 tid=0x00007fdc7401b800 nid=0x32509 waiting on condition [0x00007fdcfc747000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000006812943d0> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:186)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2043)
+	at java.util.concurrent.DelayQueue.take(DelayQueue.java:209)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:755)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:695)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor.getTask(ADThreadPoolExecutor.java:500)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor$Worker.run(ADThreadPoolExecutor.java:725)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"AD Thread Pool-Coalescable_CS_Scheduler0" daemon prio=10 tid=0x00007fdc7400f000 nid=0x32508 waiting on condition [0x00007fdcfc848000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000681294130> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:186)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2043)
+	at java.util.concurrent.DelayQueue.take(DelayQueue.java:209)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:755)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:695)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor.getTask(ADThreadPoolExecutor.java:500)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor$Worker.run(ADThreadPoolExecutor.java:725)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"OracleTimeoutPollingThread" daemon prio=10 tid=0x00007fdca405a000 nid=0x313b1 sleeping[0x00007fdcfc949000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleep(Native Method)
+	at oracle.jdbc.driver.OracleTimeoutPollingThread.run(OracleTimeoutPollingThread.java:150)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '20' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd0001c800 nid=0x30e51 in Object.wait() [0x00007fdcfca4a000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006b5395e30> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006b5395e30> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '19' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd0001a000 nid=0x30e50 in Object.wait() [0x00007fdcfcb4b000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006b53b5228> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006b53b5228> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '18' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd00018000 nid=0x30e4f in Object.wait() [0x00007fdcfcc4c000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006b53b39f8> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006b53b39f8> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '17' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd00016000 nid=0x30e4e in Object.wait() [0x00007fdcfcd4d000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006b53aaea0> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006b53aaea0> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '16' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd00013800 nid=0x30e4d runnable [0x00007fdcfce4c000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:153)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at oracle.net.ns.Packet.receive(Packet.java:308)
+	at oracle.net.ns.DataPacket.receive(DataPacket.java:106)
+	at oracle.net.ns.NetInputStream.getNextPacket(NetInputStream.java:324)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:268)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:190)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:107)
+	at oracle.jdbc.driver.T4CSocketInputStreamWrapper.readNextPacket(T4CSocketInputStreamWrapper.java:124)
+	at oracle.jdbc.driver.T4CSocketInputStreamWrapper.read(T4CSocketInputStreamWrapper.java:80)
+	at oracle.jdbc.driver.T4CMAREngine.unmarshalUB1(T4CMAREngine.java:1137)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:350)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:205)
+	at oracle.jdbc.driver.T4CCallableStatement.executeForRows(T4CCallableStatement.java:1043)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1336)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3621)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3722)
+	- locked <0x00000007ff5970e8> (a oracle.jdbc.driver.T4CConnection)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4755)
+	- locked <0x00000007ff5970e8> (a oracle.jdbc.driver.T4CConnection)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1379)
+	at weblogic.jdbc.wrapper.PreparedStatement.execute(PreparedStatement.java:99)
+	at com.iflex.fcubs.gwservices.db.inbound.GWMsgSchemaProc.processMsg(GWMsgSchemaProc.java:494)
+	at com.iflex.fcubs.gw.ejb.GWEJBBean.processMessage(GWEJBBean.java:848)
+	at com.iflex.fcubs.gw.ejb.GWEJBBean.processMsg(GWEJBBean.java:420)
+	at com.iflex.fcubs.gw.ejb.GWEJB_GW_EJB_Bean_jg7dym_EOImpl.__WL_invoke(Unknown Source)
+	at weblogic.ejb.container.internal.SessionRemoteMethodInvoker.invoke(SessionRemoteMethodInvoker.java:40)
+	at com.iflex.fcubs.gw.ejb.GWEJB_GW_EJB_Bean_jg7dym_EOImpl.processMsg(Unknown Source)
+	at com.iflex.fcubs.gw.ejb.GWEJB_GW_EJB_Bean_jg7dym_EOImpl_WLSkel.invoke(Unknown Source)
+	at weblogic.rmi.internal.ServerRequest.sendReceive(ServerRequest.java:190)
+	at weblogic.rmi.cluster.ClusterableRemoteRef.invoke(ClusterableRemoteRef.java:347)
+	at weblogic.rmi.cluster.ClusterableRemoteRef.invoke(ClusterableRemoteRef.java:261)
+	at com.iflex.fcubs.gw.ejb.GWEJB_GW_EJB_Bean_jg7dym_EOImpl_1036_WLStub.processMsg(Unknown Source)
+	at com.iflex.fcubs.gwservices.ejb.GWEJBClient.callRemoteEJB(GWEJBClient.java:172)
+	at com.ofss.fcubs.gw.ws.types.FCUBSCoreServiceImpl.callEJB(Unknown Source)
+	at com.ofss.fcubs.gw.ws.types.FCUBSCoreServiceImpl.queryCustAccDtlsIO(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor441.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at weblogic.wsee.jaxws.WLSInstanceResolver$WLSInvoker.invoke(WLSInstanceResolver.java:95)
+	at weblogic.wsee.jaxws.WLSInstanceResolver$WLSInvoker.invoke(WLSInstanceResolver.java:76)
+	at com.sun.xml.ws.server.InvokerTube$2.invoke(InvokerTube.java:151)
+	at com.sun.xml.ws.server.sei.EndpointMethodHandlerImpl.invoke(EndpointMethodHandlerImpl.java:268)
+	at com.sun.xml.ws.server.sei.SEIInvokerTube.processRequest(SEIInvokerTube.java:100)
+	at com.sun.xml.ws.api.pipe.Fiber.__doRun(Fiber.java:866)
+	at com.sun.xml.ws.api.pipe.Fiber._doRun(Fiber.java:815)
+	at com.sun.xml.ws.api.pipe.Fiber.doRun(Fiber.java:778)
+	at com.sun.xml.ws.api.pipe.Fiber.runSync(Fiber.java:680)
+	- locked <0x00000007f897e1d8> (a com.sun.xml.ws.api.pipe.Fiber)
+	at com.sun.xml.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:403)
+	at com.sun.xml.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:575)
+	at com.sun.xml.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:258)
+	at com.sun.xml.ws.transport.http.servlet.ServletAdapter.handle(ServletAdapter.java:140)
+	at weblogic.wsee.jaxws.WLSServletAdapter.handle(WLSServletAdapter.java:177)
+	at weblogic.wsee.jaxws.HttpServletAdapter$AuthorizedInvoke.run(HttpServletAdapter.java:708)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:146)
+	at weblogic.wsee.util.ServerSecurityHelper.authenticatedInvoke(ServerSecurityHelper.java:103)
+	at weblogic.wsee.jaxws.HttpServletAdapter$3.run(HttpServletAdapter.java:311)
+	at weblogic.wsee.jaxws.HttpServletAdapter.post(HttpServletAdapter.java:336)
+	at weblogic.wsee.jaxws.JAXWSServlet.doRequest(JAXWSServlet.java:99)
+	at weblogic.servlet.http.AbstractAsyncServlet.service(AbstractAsyncServlet.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:227)
+	at weblogic.servlet.internal.StubSecurityHelper.invokeServlet(StubSecurityHelper.java:125)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:301)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:184)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.wrapRun(WebAppServletContext.java:3750)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:3714)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+	at weblogic.servlet.internal.WebAppServletContext.securedExecute(WebAppServletContext.java:2283)
+	at weblogic.servlet.internal.WebAppServletContext.execute(WebAppServletContext.java:2182)
+	at weblogic.servlet.internal.ServletRequestImpl.run(ServletRequestImpl.java:1499)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:263)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:221)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '15' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd00011800 nid=0x30e4c in Object.wait() [0x00007fdcfcf4f000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006b53b0be8> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006b53b0be8> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '14' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd0000f800 nid=0x30e4b in Object.wait() [0x00007fdcfd04f000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006b5370368> (a com.sun.jmx.remote.internal.ArrayNotificationBuffer)
+	at com.sun.jmx.remote.internal.ArrayNotificationBuffer.fetchNotifications(ArrayNotificationBuffer.java:449)
+	- locked <0x00000006b5370368> (a com.sun.jmx.remote.internal.ArrayNotificationBuffer)
+	at com.sun.jmx.remote.internal.ArrayNotificationBuffer$ShareBuffer.fetchNotifications(ArrayNotificationBuffer.java:227)
+	at com.sun.jmx.remote.internal.ServerNotifForwarder.fetchNotifs(ServerNotifForwarder.java:275)
+	at javax.management.remote.rmi.RMIConnectionImpl$4.run(RMIConnectionImpl.java:1290)
+	at javax.management.remote.rmi.RMIConnectionImpl$4.run(RMIConnectionImpl.java:1288)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.management.remote.rmi.RMIConnectionImpl.fetchNotifications(RMIConnectionImpl.java:1296)
+	at javax.management.remote.rmi.RMIConnectionImpl_WLSkel.invoke(Unknown Source)
+	at weblogic.rmi.internal.BasicServerRef.invoke(BasicServerRef.java:667)
+	at weblogic.rmi.internal.BasicServerRef$1.run(BasicServerRef.java:522)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:146)
+	at weblogic.rmi.internal.BasicServerRef.handleRequest(BasicServerRef.java:518)
+	at weblogic.rmi.internal.wls.WLSExecuteRequest.run(WLSExecuteRequest.java:118)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:263)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:221)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '13' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd0000d800 nid=0x30e4a runnable [0x00007fdcfd14f000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:153)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at oracle.net.ns.Packet.receive(Packet.java:308)
+	at oracle.net.ns.DataPacket.receive(DataPacket.java:106)
+	at oracle.net.ns.NetInputStream.getNextPacket(NetInputStream.java:324)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:268)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:190)
+	at oracle.net.ns.NetInputStream.read(NetInputStream.java:107)
+	at oracle.jdbc.driver.T4CSocketInputStreamWrapper.readNextPacket(T4CSocketInputStreamWrapper.java:124)
+	at oracle.jdbc.driver.T4CSocketInputStreamWrapper.read(T4CSocketInputStreamWrapper.java:80)
+	at oracle.jdbc.driver.T4CMAREngine.unmarshalUB1(T4CMAREngine.java:1137)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:350)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:227)
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:531)
+	at oracle.jdbc.driver.T4CCallableStatement.doOall8(T4CCallableStatement.java:205)
+	at oracle.jdbc.driver.T4CCallableStatement.executeForRows(T4CCallableStatement.java:1043)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1336)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3621)
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3722)
+	- locked <0x00000007095186b8> (a oracle.jdbc.driver.T4CConnection)
+	at oracle.jdbc.driver.OracleCallableStatement.execute(OracleCallableStatement.java:4755)
+	- locked <0x00000007095186b8> (a oracle.jdbc.driver.T4CConnection)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1379)
+	at weblogic.jdbc.wrapper.PreparedStatement.execute(PreparedStatement.java:99)
+	at com.iflex.fcubs.gwservices.db.inbound.GWMsgSchemaProc.processMsg(GWMsgSchemaProc.java:494)
+	at com.iflex.fcubs.gw.ejb.GWEJBBean.processMessage(GWEJBBean.java:848)
+	at com.iflex.fcubs.gw.ejb.GWEJBBean.processMsg(GWEJBBean.java:420)
+	at com.iflex.fcubs.gw.ejb.GWEJB_GW_EJB_Bean_jg7dym_EOImpl.__WL_invoke(Unknown Source)
+	at weblogic.ejb.container.internal.SessionRemoteMethodInvoker.invoke(SessionRemoteMethodInvoker.java:40)
+	at com.iflex.fcubs.gw.ejb.GWEJB_GW_EJB_Bean_jg7dym_EOImpl.processMsg(Unknown Source)
+	at com.iflex.fcubs.gw.ejb.GWEJB_GW_EJB_Bean_jg7dym_EOImpl_WLSkel.invoke(Unknown Source)
+	at weblogic.rmi.internal.ServerRequest.sendReceive(ServerRequest.java:190)
+	at weblogic.rmi.cluster.ClusterableRemoteRef.invoke(ClusterableRemoteRef.java:347)
+	at weblogic.rmi.cluster.ClusterableRemoteRef.invoke(ClusterableRemoteRef.java:261)
+	at com.iflex.fcubs.gw.ejb.GWEJB_GW_EJB_Bean_jg7dym_EOImpl_1036_WLStub.processMsg(Unknown Source)
+	at com.iflex.fcubs.gwservices.ejb.GWEJBClient.callRemoteEJB(GWEJBClient.java:172)
+	at com.ofss.fcubs.gw.ws.types.FCUBSCoreServiceImpl.callEJB(Unknown Source)
+	at com.ofss.fcubs.gw.ws.types.FCUBSCoreServiceImpl.queryCustAccDtlsIO(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor441.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at weblogic.wsee.jaxws.WLSInstanceResolver$WLSInvoker.invoke(WLSInstanceResolver.java:95)
+	at weblogic.wsee.jaxws.WLSInstanceResolver$WLSInvoker.invoke(WLSInstanceResolver.java:76)
+	at com.sun.xml.ws.server.InvokerTube$2.invoke(InvokerTube.java:151)
+	at com.sun.xml.ws.server.sei.EndpointMethodHandlerImpl.invoke(EndpointMethodHandlerImpl.java:268)
+	at com.sun.xml.ws.server.sei.SEIInvokerTube.processRequest(SEIInvokerTube.java:100)
+	at com.sun.xml.ws.api.pipe.Fiber.__doRun(Fiber.java:866)
+	at com.sun.xml.ws.api.pipe.Fiber._doRun(Fiber.java:815)
+	at com.sun.xml.ws.api.pipe.Fiber.doRun(Fiber.java:778)
+	at com.sun.xml.ws.api.pipe.Fiber.runSync(Fiber.java:680)
+	- locked <0x00000007f9930468> (a com.sun.xml.ws.api.pipe.Fiber)
+	at com.sun.xml.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:403)
+	at com.sun.xml.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:575)
+	at com.sun.xml.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:258)
+	at com.sun.xml.ws.transport.http.servlet.ServletAdapter.handle(ServletAdapter.java:140)
+	at weblogic.wsee.jaxws.WLSServletAdapter.handle(WLSServletAdapter.java:177)
+	at weblogic.wsee.jaxws.HttpServletAdapter$AuthorizedInvoke.run(HttpServletAdapter.java:708)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:146)
+	at weblogic.wsee.util.ServerSecurityHelper.authenticatedInvoke(ServerSecurityHelper.java:103)
+	at weblogic.wsee.jaxws.HttpServletAdapter$3.run(HttpServletAdapter.java:311)
+	at weblogic.wsee.jaxws.HttpServletAdapter.post(HttpServletAdapter.java:336)
+	at weblogic.wsee.jaxws.JAXWSServlet.doRequest(JAXWSServlet.java:99)
+	at weblogic.servlet.http.AbstractAsyncServlet.service(AbstractAsyncServlet.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:227)
+	at weblogic.servlet.internal.StubSecurityHelper.invokeServlet(StubSecurityHelper.java:125)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:301)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:184)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.wrapRun(WebAppServletContext.java:3750)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:3714)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+	at weblogic.servlet.internal.WebAppServletContext.securedExecute(WebAppServletContext.java:2283)
+	at weblogic.servlet.internal.WebAppServletContext.execute(WebAppServletContext.java:2182)
+	at weblogic.servlet.internal.ServletRequestImpl.run(ServletRequestImpl.java:1499)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:263)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:221)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '12' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd0000b000 nid=0x30e49 in Object.wait() [0x00007fdcfd252000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006b538acb8> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006b538acb8> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[STANDBY] ExecuteThread: '11' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd00009000 nid=0x30e48 in Object.wait() [0x00007fdcfd353000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006b7068298> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006b7068298> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '10' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd00007000 nid=0x30e47 in Object.wait() [0x00007fdcfd454000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006b5e72bd8> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006b5e72bd8> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '9' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd00005000 nid=0x30e46 in Object.wait() [0x00007fdcfda5a000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006b5394b70> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006b5394b70> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd00003800 nid=0x30e45 in Object.wait() [0x00007fdcfdcf7000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006b5541458> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006b5541458> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd00001800 nid=0x30e44 in Object.wait() [0x00007fdcfddf8000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006b53aa1c0> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006b53aa1c0> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '6' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdcb67e3000 nid=0x30dde in Object.wait() [0x00007fdcfdef9000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006b5378c68> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006b5378c68> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"DynamicListenThread[Default]" daemon prio=10 tid=0x00007fdcb61a4000 nid=0x30d38 runnable [0x00007fdcfdffa000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:403)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:530)
+	at java.net.ServerSocket.accept(ServerSocket.java:498)
+	at weblogic.socket.WeblogicServerSocket.accept(WeblogicServerSocket.java:38)
+	at weblogic.server.channels.DynamicListenThread$SocketAccepter.accept(DynamicListenThread.java:535)
+	at weblogic.server.channels.DynamicListenThread$SocketAccepter.access$200(DynamicListenThread.java:417)
+	at weblogic.server.channels.DynamicListenThread.run(DynamicListenThread.java:173)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"DynamicJSSEListenThread[DefaultSecure]" daemon prio=10 tid=0x00007fdcb61a0000 nid=0x30d37 runnable [0x00007fdcfd959000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:403)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:530)
+	at java.net.ServerSocket.accept(ServerSocket.java:498)
+	at weblogic.socket.WeblogicServerSocket.accept(WeblogicServerSocket.java:38)
+	at weblogic.server.channels.DynamicListenThread$SocketAccepter.accept(DynamicListenThread.java:535)
+	at weblogic.server.channels.DynamicListenThread$SocketAccepter.access$200(DynamicListenThread.java:417)
+	at weblogic.server.channels.DynamicListenThread.run(DynamicListenThread.java:173)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"weblogic.GCMonitor" daemon prio=10 tid=0x00007fdcb67df000 nid=0x30ccf in Object.wait() [0x00007fdcfd555000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006b3973ae8> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:135)
+	- locked <0x00000006b3973ae8> (a java.lang.ref.ReferenceQueue$Lock)
+	at weblogic.platform.GCMonitorThread.waitForNotification(GCMonitorThread.java:88)
+	at weblogic.platform.GCMonitorThread.run(GCMonitorThread.java:64)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdcb000a000 nid=0x30ccd in Object.wait() [0x00007fdcfd656000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006b20463f0> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006b20463f0> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '4' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdcb0008000 nid=0x30ccc in Object.wait() [0x00007fdcfd757000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006b20453a8> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x00000006b20453a8> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"[STUCK] ExecuteThread: '3' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdcb0005800 nid=0x30ccb runnable [0x00007fdcfd855000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:153)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at weblogic.socket.JSSEFilterImpl.readFromNetwork(JSSEFilterImpl.java:409)
+	at weblogic.socket.JSSEFilterImpl.handleUnwrapResults(JSSEFilterImpl.java:542)
+	at weblogic.socket.JSSEFilterImpl.unwrapAndHandleResults(JSSEFilterImpl.java:462)
+	at weblogic.socket.JSSEFilterImpl.doHandshake(JSSEFilterImpl.java:82)
+	at weblogic.socket.JSSEFilterImpl.doHandshake(JSSEFilterImpl.java:66)
+	at weblogic.socket.JSSEFilterImpl.doHandshake(JSSEFilterImpl.java:61)
+	- locked <0x00000006f6efb2a8> (a weblogic.socket.JSSEFilterImpl)
+	at weblogic.socket.JSSEFilterImpl.write(JSSEFilterImpl.java:396)
+	at weblogic.socket.JSSESocket$JSSEOutputStream.write(JSSESocket.java:89)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	- locked <0x00000006f6f01a08> (a java.io.BufferedOutputStream)
+	at java.io.FilterOutputStream.flush(FilterOutputStream.java:140)
+	at weblogic.net.http.HttpURLConnection.writeRequests(HttpURLConnection.java:191)
+	- locked <0x00000006f6efaf50> (a weblogic.net.http.SOAPHttpsURLConnection)
+	at weblogic.net.http.HttpURLConnection.getInputStream(HttpURLConnection.java:411)
+	- locked <0x00000006f6efaf50> (a weblogic.net.http.SOAPHttpsURLConnection)
+	at weblogic.net.http.SOAPHttpsURLConnection.getInputStream(SOAPHttpsURLConnection.java:37)
+	at weblogic.net.http.HttpURLConnection.getResponseCode(HttpURLConnection.java:1034)
+	at com.sun.xml.ws.transport.http.client.HttpClientTransport.readResponseCodeAndMessage(HttpClientTransport.java:218)
+	at com.sun.xml.ws.transport.http.client.HttpTransportPipe.process(HttpTransportPipe.java:204)
+	at com.sun.xml.ws.transport.http.client.HttpTransportPipe.processRequest(HttpTransportPipe.java:124)
+	at com.sun.xml.ws.transport.DeferredTransportPipe.processRequest(DeferredTransportPipe.java:118)
+	at com.sun.xml.ws.api.pipe.Fiber.__doRun(Fiber.java:866)
+	at com.sun.xml.ws.api.pipe.Fiber._doRun(Fiber.java:815)
+	at com.sun.xml.ws.api.pipe.Fiber.doRun(Fiber.java:778)
+	at com.sun.xml.ws.api.pipe.Fiber.runSync(Fiber.java:680)
+	- locked <0x00000006f6efa958> (a com.sun.xml.ws.api.pipe.Fiber)
+	at com.sun.xml.ws.client.Stub.process(Stub.java:272)
+	at com.sun.xml.ws.client.sei.SEIStub.doProcess(SEIStub.java:153)
+	at com.sun.xml.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:115)
+	at com.sun.xml.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:95)
+	at com.sun.xml.ws.client.sei.SEIStub.invoke(SEIStub.java:136)
+	at com.sun.proxy.$Proxy4700.pgmact(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor604.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at weblogic.wsee.jaxws.spi.ClientInstanceInvocationHandler.invoke(ClientInstanceInvocationHandler.java:87)
+	at com.sun.proxy.$Proxy291.pgmact(Unknown Source)
+	at corp.bco.fcc.cuenta.creacion.model.autoriza7.Autoriza7AltaV42PE.registrarA7(Autoriza7AltaV42PE.java:218)
+	at corp.bco.fcc.cuenta.creacion.model.autoriza7.Autoriza7Alta.registrarA7(Autoriza7Alta.java:49)
+	at corp.bco.fcc.cuenta.creacion.model.CreacionCuentaBean.cuentaCorrienteCrear(CreacionCuentaBean.java:108)
+	at sun.reflect.GeneratedMethodAccessor603.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.bea.core.repackaged.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:310)
+	at com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:182)
+	at com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:149)
+	at com.bea.core.repackaged.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:131)
+	at com.bea.core.repackaged.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:119)
+	at com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	at com.oracle.pitchfork.spi.MethodInvocationVisitorImpl.visit(MethodInvocationVisitorImpl.java:34)
+	at weblogic.ejb.container.injection.EnvironmentInterceptorCallbackImpl.callback(EnvironmentInterceptorCallbackImpl.java:54)
+	at com.oracle.pitchfork.spi.EnvironmentInterceptor.invoke(EnvironmentInterceptor.java:42)
+	at com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	at com.bea.core.repackaged.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89)
+	at com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	at com.bea.core.repackaged.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:131)
+	at com.bea.core.repackaged.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:119)
+	at com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	at com.bea.core.repackaged.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:204)
+	at com.sun.proxy.$Proxy286.cuentaCorrienteCrear(Unknown Source)
+	at corp.bco.fcc.cuenta.creacion.model.CreacionCuenta_vynbi8_CreacionCuentaLocalImpl.__WL_invoke(Unknown Source)
+	at weblogic.ejb.container.internal.SessionLocalMethodInvoker.invoke(SessionLocalMethodInvoker.java:39)
+	at corp.bco.fcc.cuenta.creacion.model.CreacionCuenta_vynbi8_CreacionCuentaLocalImpl.cuentaCorrienteCrear(Unknown Source)
+	at corp.bco.fcc.cuenta.creacion.model.ws.CreacionCuentaPtImpl.creacionCuentaOp(CreacionCuentaPtImpl.java:56)
+	at sun.reflect.GeneratedMethodAccessor602.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at weblogic.wsee.jaxws.WLSInstanceResolver$WLSInvoker.invoke(WLSInstanceResolver.java:95)
+	at weblogic.wsee.jaxws.WLSInstanceResolver$WLSInvoker.invoke(WLSInstanceResolver.java:76)
+	at com.sun.xml.ws.server.InvokerTube$2.invoke(InvokerTube.java:151)
+	at com.sun.xml.ws.server.sei.EndpointMethodHandlerImpl.invoke(EndpointMethodHandlerImpl.java:268)
+	at com.sun.xml.ws.server.sei.SEIInvokerTube.processRequest(SEIInvokerTube.java:100)
+	at com.sun.xml.ws.api.pipe.Fiber.__doRun(Fiber.java:866)
+	at com.sun.xml.ws.api.pipe.Fiber._doRun(Fiber.java:815)
+	at com.sun.xml.ws.api.pipe.Fiber.doRun(Fiber.java:778)
+	at com.sun.xml.ws.api.pipe.Fiber.runSync(Fiber.java:680)
+	- locked <0x00000006f6f60128> (a com.sun.xml.ws.api.pipe.Fiber)
+	at com.sun.xml.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:403)
+	at com.sun.xml.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:575)
+	at com.sun.xml.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:258)
+	at com.sun.xml.ws.transport.http.servlet.ServletAdapter.handle(ServletAdapter.java:140)
+	at weblogic.wsee.jaxws.WLSServletAdapter.handle(WLSServletAdapter.java:177)
+	at weblogic.wsee.jaxws.HttpServletAdapter$AuthorizedInvoke.run(HttpServletAdapter.java:708)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:146)
+	at weblogic.wsee.util.ServerSecurityHelper.authenticatedInvoke(ServerSecurityHelper.java:103)
+	at weblogic.wsee.jaxws.HttpServletAdapter$3.run(HttpServletAdapter.java:311)
+	at weblogic.wsee.jaxws.HttpServletAdapter.post(HttpServletAdapter.java:336)
+	at weblogic.wsee.jaxws.JAXWSServlet.doRequest(JAXWSServlet.java:99)
+	at weblogic.servlet.http.AbstractAsyncServlet.service(AbstractAsyncServlet.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:227)
+	at weblogic.servlet.internal.StubSecurityHelper.invokeServlet(StubSecurityHelper.java:125)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:301)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:184)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.wrapRun(WebAppServletContext.java:3750)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:3714)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+	at weblogic.servlet.internal.WebAppServletContext.securedExecute(WebAppServletContext.java:2283)
+	at weblogic.servlet.internal.WebAppServletContext.execute(WebAppServletContext.java:2182)
+	at weblogic.servlet.internal.ServletRequestImpl.run(ServletRequestImpl.java:1499)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:263)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:221)
+
+   Locked ownable synchronizers:
+	- None
+
+"weblogic.cluster.MessageReceiver" daemon prio=10 tid=0x00007fdcec235000 nid=0x30c65 in Object.wait() [0x00007fdcff6bf000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000682029668> (a java.util.ArrayList)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.cluster.messaging.internal.server.UnicastFragmentSocket.receive(UnicastFragmentSocket.java:105)
+	- locked <0x0000000682029668> (a java.util.ArrayList)
+	at weblogic.cluster.FragmentSocketWrapper.receive(FragmentSocketWrapper.java:98)
+	at weblogic.cluster.MulticastManager.run(MulticastManager.java:466)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdd079bf000 nid=0x2f89d in Object.wait() [0x00007fdcfdb82000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000686214b90> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x0000000686214b90> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"mysql-cj-abandoned-connection-cleanup" daemon prio=10 tid=0x00007fdd05009800 nid=0x2efb4 in Object.wait() [0x00007fdcff460000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006845b6410> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:135)
+	- locked <0x00000006845b6410> (a java.lang.ref.ReferenceQueue$Lock)
+	at com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:80)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- <0x00000006845b64b0> (a java.util.concurrent.ThreadPoolExecutor$Worker)
+
+"Thread-15" prio=10 tid=0x00007fdd04d34000 nid=0x2eeb5 waiting on condition [0x00007fdcfea5c000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000680699850> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:186)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2043)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at weblogic.utils.concurrent.JDK15ConcurrentBlockingQueue.take(JDK15ConcurrentBlockingQueue.java:89)
+	at weblogic.store.internal.PersistentStoreImpl.getOutstandingWork(PersistentStoreImpl.java:676)
+	at weblogic.store.internal.PersistentStoreImpl.run(PersistentStoreImpl.java:751)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"DoSManager" daemon prio=10 tid=0x00007fdcc400f000 nid=0x2ed2b waiting on condition [0x00007fdcff35f000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleep(Native Method)
+	at com.octetstring.vde.DoSManager.run(DoSManager.java:433)
+
+   Locked ownable synchronizers:
+	- None
+
+"VDE Transaction Processor Thread" daemon prio=10 tid=0x00007fdd04848800 nid=0x2ed29 in Object.wait() [0x00007fdcff561000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000680699aa8> (a com.octetstring.vde.backend.standard.TransactionProcessor)
+	at java.lang.Object.wait(Object.java:503)
+	at com.octetstring.vde.backend.standard.TransactionProcessor.waitChange(TransactionProcessor.java:367)
+	- locked <0x0000000680699aa8> (a com.octetstring.vde.backend.standard.TransactionProcessor)
+	at com.octetstring.vde.backend.standard.TransactionProcessor.run(TransactionProcessor.java:212)
+
+   Locked ownable synchronizers:
+	- None
+
+"ExecuteThread: '3' for queue: 'weblogic.socket.Muxer'" daemon prio=10 tid=0x00007fdcec01c800 nid=0x2ecc4 waiting for monitor entry [0x00007fdd7474a000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at weblogic.socket.PosixSocketMuxer.processSockets(PosixSocketMuxer.java:93)
+	- waiting to lock <0x000000068069a810> (a weblogic.socket.PosixSocketMuxer$1)
+	at weblogic.socket.SocketReaderRequest.run(SocketReaderRequest.java:29)
+	at weblogic.socket.SocketReaderRequest.execute(SocketReaderRequest.java:42)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:145)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:117)
+
+   Locked ownable synchronizers:
+	- None
+
+"ExecuteThread: '2' for queue: 'weblogic.socket.Muxer'" daemon prio=10 tid=0x00007fdcec01a800 nid=0x2ecc3 runnable [0x00007fdd74957000]
+   java.lang.Thread.State: RUNNABLE
+	at weblogic.socket.PosixSocketMuxer.poll(Native Method)
+	at weblogic.socket.PosixSocketMuxer.processSockets(PosixSocketMuxer.java:102)
+	- locked <0x000000068069a810> (a weblogic.socket.PosixSocketMuxer$1)
+	at weblogic.socket.SocketReaderRequest.run(SocketReaderRequest.java:29)
+	at weblogic.socket.SocketReaderRequest.execute(SocketReaderRequest.java:42)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:145)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:117)
+
+   Locked ownable synchronizers:
+	- None
+
+"ExecuteThread: '1' for queue: 'weblogic.socket.Muxer'" daemon prio=10 tid=0x00007fdcec003000 nid=0x2ecc2 waiting for monitor entry [0x00007fdd74a58000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at weblogic.socket.PosixSocketMuxer.processSockets(PosixSocketMuxer.java:93)
+	- waiting to lock <0x000000068069a810> (a weblogic.socket.PosixSocketMuxer$1)
+	at weblogic.socket.SocketReaderRequest.run(SocketReaderRequest.java:29)
+	at weblogic.socket.SocketReaderRequest.execute(SocketReaderRequest.java:42)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:145)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:117)
+
+   Locked ownable synchronizers:
+	- None
+
+"ExecuteThread: '0' for queue: 'weblogic.socket.Muxer'" daemon prio=10 tid=0x00007fdcec002000 nid=0x2ecc1 waiting for monitor entry [0x00007fdd74b59000]
+   java.lang.Thread.State: BLOCKED (on object monitor)
+	at weblogic.socket.PosixSocketMuxer.processSockets(PosixSocketMuxer.java:93)
+	- waiting to lock <0x000000068069a810> (a weblogic.socket.PosixSocketMuxer$1)
+	at weblogic.socket.SocketReaderRequest.run(SocketReaderRequest.java:29)
+	at weblogic.socket.SocketReaderRequest.execute(SocketReaderRequest.java:42)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:145)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:117)
+
+   Locked ownable synchronizers:
+	- None
+
+"NM Reaper" daemon prio=10 tid=0x00007fdd04093000 nid=0x2ecc0 in Object.wait() [0x00007fdcff9f3000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000681b9a260> (a java.util.TaskQueue)
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	- locked <0x0000000681b9a260> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+   Locked ownable synchronizers:
+	- None
+
+"Thread-9" prio=10 tid=0x00007fdd0409e800 nid=0x2ecba waiting on condition [0x00007fdcffbf7000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000681b9aba8> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:186)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2043)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at weblogic.utils.concurrent.JDK15ConcurrentBlockingQueue.take(JDK15ConcurrentBlockingQueue.java:89)
+	at weblogic.store.internal.PersistentStoreImpl.getOutstandingWork(PersistentStoreImpl.java:676)
+	at weblogic.store.internal.PersistentStoreImpl.run(PersistentStoreImpl.java:751)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdda1cda800 nid=0x2ec52 in Object.wait() [0x00007fdcffdfc000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000681b9bcc0> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x0000000681b9bcc0> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"weblogic.timers.TimerThread" daemon prio=10 tid=0x00007fdda1cca000 nid=0x2ec51 in Object.wait() [0x00007fdcffefd000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000681e13048> (a java.lang.Object)
+	at weblogic.timers.internal.TimerThread.doWait(TimerThread.java:114)
+	- locked <0x0000000681e13048> (a java.lang.Object)
+	at weblogic.timers.internal.TimerThread.access$000(TimerThread.java:22)
+	at weblogic.timers.internal.TimerThread$Thread.run(TimerThread.java:290)
+
+   Locked ownable synchronizers:
+	- None
+
+"weblogic.time.TimeEventGenerator" daemon prio=10 tid=0x00007fdda1c43000 nid=0x2ec50 in Object.wait() [0x00007fdd7418d000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000681e130e8> (a weblogic.time.common.internal.TimeTable)
+	at weblogic.time.common.internal.TimeTable.snooze(TimeTable.java:286)
+	- locked <0x0000000681e130e8> (a weblogic.time.common.internal.TimeTable)
+	at weblogic.time.common.internal.TimeEventGenerator.run(TimeEventGenerator.java:117)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'" daemon prio=10 tid=0x00007fdda1c9e800 nid=0x2ec4f in Object.wait() [0x00007fdd7428e000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x000000068066b798> (a weblogic.work.ExecuteThread)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:205)
+	- locked <0x000000068066b798> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:233)
+
+   Locked ownable synchronizers:
+	- None
+
+"Timer-1" daemon prio=10 tid=0x00007fdda1ca0800 nid=0x2ec4e in Object.wait() [0x00007fdd7438f000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006820ba5f8> (a java.util.TaskQueue)
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	- locked <0x00000006820ba5f8> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+   Locked ownable synchronizers:
+	- None
+
+"Timer-0" daemon prio=10 tid=0x00007fdda0945800 nid=0x2eb94 in Object.wait() [0x00007fdd7484b000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000006820baaa8> (a java.util.TaskQueue)
+	at java.lang.Object.wait(Object.java:503)
+	at java.util.TimerThread.mainLoop(Timer.java:526)
+	- locked <0x00000006820baaa8> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+   Locked ownable synchronizers:
+	- None
+
+"Service Thread" daemon prio=10 tid=0x00007fdda05c7000 nid=0x2eb00 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"C2 CompilerThread1" daemon prio=10 tid=0x00007fdda04ba800 nid=0x2eaff waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"C2 CompilerThread0" daemon prio=10 tid=0x00007fdda04bb800 nid=0x2eafe waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"AD Cloud Instance Id Getter-2" daemon prio=10 tid=0x00007fdd4d8d1000 nid=0x2e9b9 waiting on condition [0x00007fdd76554000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x000000068129aa40> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:186)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2043)
+	at java.util.concurrent.DelayQueue.take(DelayQueue.java:209)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:755)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:695)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor.getTask(ADThreadPoolExecutor.java:500)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor$Worker.run(ADThreadPoolExecutor.java:725)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"AD Cloud Instance Id Getter-1" daemon prio=10 tid=0x00007fdd4d8c3000 nid=0x2e9b8 waiting on condition [0x00007fdd76655000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x000000068129aa40> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:186)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2043)
+	at java.util.concurrent.DelayQueue.take(DelayQueue.java:209)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:755)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:695)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor.getTask(ADThreadPoolExecutor.java:500)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor$Worker.run(ADThreadPoolExecutor.java:725)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"AD Cloud Instance Id Getter-0" daemon prio=10 tid=0x00007fdd4d8c0800 nid=0x2e9b7 waiting on condition [0x00007fdd76756000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x000000068129aa40> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:186)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2043)
+	at java.util.concurrent.DelayQueue.take(DelayQueue.java:209)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:755)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:695)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor.getTask(ADThreadPoolExecutor.java:500)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor$Worker.run(ADThreadPoolExecutor.java:725)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"AD Thread-Top Backends Processor0" daemon prio=10 tid=0x00007fdd4d747000 nid=0x2e9b5 runnable [0x00007fdd76857000]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000006812735b8> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+	at java.util.concurrent.DelayQueue.take(DelayQueue.java:220)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:755)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:695)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor.getTask(ADThreadPoolExecutor.java:500)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor$Worker.run(ADThreadPoolExecutor.java:725)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"AD Thread-Metric Reporter1" daemon prio=10 tid=0x00007fdd4d5e7800 nid=0x2e951 waiting on condition [0x00007fdd76a59000]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000681625508> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+	at java.util.concurrent.DelayQueue.take(DelayQueue.java:220)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:755)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:695)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor.getTask(ADThreadPoolExecutor.java:500)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor$Worker.run(ADThreadPoolExecutor.java:725)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"AD Thread-Metric Reporter0" daemon prio=10 tid=0x00007fdd4d5e6000 nid=0x2e950 waiting on condition [0x00007fdd76b5a000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000681625508> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:186)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2043)
+	at java.util.concurrent.DelayQueue.take(DelayQueue.java:215)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:755)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:695)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor.getTask(ADThreadPoolExecutor.java:500)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor$Worker.run(ADThreadPoolExecutor.java:725)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"AD Thread-Config Poller" daemon prio=10 tid=0x00007fdd4d3a7800 nid=0x2e94e waiting on condition [0x00007fdd76c5b000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleep(Native Method)
+	at com.singularity.ee.agent.appagent.kernel.config.xml.FileWatchdog.run(FileWatchdog.java:93)
+
+   Locked ownable synchronizers:
+	- None
+
+"AD Thread Pool-Global1" daemon prio=10 tid=0x00007fdd4d36e000 nid=0x2e94d runnable [0x00007fdd76d5c000]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000006821955a0> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+	at java.util.concurrent.DelayQueue.take(DelayQueue.java:220)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:755)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:695)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor.getTask(ADThreadPoolExecutor.java:500)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor$Worker.run(ADThreadPoolExecutor.java:725)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"AD Thread Pool-Global0" daemon prio=10 tid=0x00007fdd4ce8f800 nid=0x2e94c waiting on condition [0x00007fdd76e5d000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000006821955a0> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:186)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2043)
+	at java.util.concurrent.DelayQueue.take(DelayQueue.java:215)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:755)
+	at com.singularity.ee.util.javaspecific.scheduler.ADScheduledThreadPoolExecutor$DelayedWorkQueue.take(ADScheduledThreadPoolExecutor.java:695)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor.getTask(ADThreadPoolExecutor.java:500)
+	at com.singularity.ee.util.javaspecific.scheduler.ADThreadPoolExecutor$Worker.run(ADThreadPoolExecutor.java:725)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"Log4j2-TF-10-AsyncLoggerConfig-2" daemon prio=10 tid=0x00007fdd4cebe800 nid=0x2e948 runnable [0x00007fdd76f5e000]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000682195b28> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+	at com.lmax.disruptor.TimeoutBlockingWaitStrategy.waitFor(TimeoutBlockingWaitStrategy.java:38)
+	at com.lmax.disruptor.ProcessingSequenceBarrier.waitFor(ProcessingSequenceBarrier.java:56)
+	at com.lmax.disruptor.BatchEventProcessor.processEvents(BatchEventProcessor.java:159)
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:125)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"Log4j2-TF-9-Scheduled-1" daemon prio=10 tid=0x00007fdd4d320800 nid=0x2e93a runnable [0x00007fdd7705f000]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000682196be8> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:226)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2082)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:807)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1075)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	at java.lang.Thread.run(Thread.java:745)
+
+   Locked ownable synchronizers:
+	- None
+
+"Signal Dispatcher" daemon prio=10 tid=0x00007fdda01e9800 nid=0x2e8b7 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+   Locked ownable synchronizers:
+	- None
+
+"Finalizer" daemon prio=10 tid=0x00007fdda01ce000 nid=0x2e8b6 in Object.wait() [0x00007fdd7d3e2000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x000000068003ee50> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:135)
+	- locked <0x000000068003ee50> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:151)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:209)
+
+   Locked ownable synchronizers:
+	- None
+
+"Reference Handler" daemon prio=10 tid=0x00007fdda01c9000 nid=0x2e8b5 in Object.wait() [0x00007fdd7d4e3000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x000000068069c330> (a java.lang.ref.Reference$Lock)
+	at java.lang.Object.wait(Object.java:503)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:180)
+	- locked <0x000000068069c330> (a java.lang.ref.Reference$Lock)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:141)
+
+   Locked ownable synchronizers:
+	- None
+
+"main" prio=10 tid=0x00007fdda0013800 nid=0x2e8aa in Object.wait() [0x00007fdda68af000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000682156508> (a weblogic.t3.srvr.T3Srvr)
+	at java.lang.Object.wait(Object.java:503)
+	at weblogic.t3.srvr.T3Srvr.waitForDeath(T3Srvr.java:1041)
+	- locked <0x0000000682156508> (a weblogic.t3.srvr.T3Srvr)
+	at weblogic.t3.srvr.T3Srvr.run(T3Srvr.java:540)
+	at weblogic.Server.main(Server.java:71)
+
+   Locked ownable synchronizers:
+	- None
+
+"VM Thread" prio=10 tid=0x00007fdda01c2800 nid=0x2e8b4 runnable 
+
+"GC task thread#0 (ParallelGC)" prio=10 tid=0x00007fdda0028000 nid=0x2e8ab runnable 
+
+"GC task thread#1 (ParallelGC)" prio=10 tid=0x00007fdda002a000 nid=0x2e8ac runnable 
+
+"GC task thread#2 (ParallelGC)" prio=10 tid=0x00007fdda002c000 nid=0x2e8ad runnable 
+
+"GC task thread#3 (ParallelGC)" prio=10 tid=0x00007fdda002e000 nid=0x2e8ae runnable 
+
+"GC task thread#4 (ParallelGC)" prio=10 tid=0x00007fdda0030000 nid=0x2e8af runnable 
+
+"GC task thread#5 (ParallelGC)" prio=10 tid=0x00007fdda0031800 nid=0x2e8b0 runnable 
+
+"GC task thread#6 (ParallelGC)" prio=10 tid=0x00007fdda0033800 nid=0x2e8b1 runnable 
+
+"GC task thread#7 (ParallelGC)" prio=10 tid=0x00007fdda0035800 nid=0x2e8b2 runnable 
+
+"VM Periodic Task Thread" prio=10 tid=0x00007fdda05ca000 nid=0x2eb01 waiting on condition 
+
+JNI global references: 2409
+

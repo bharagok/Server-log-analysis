@@ -1,0 +1,5 @@
+summary 1 : 	Weblogic Server: thread_pool:hoggedThreads.active The number of hogged threads is 17.
+
+summary 2 : 	FAULT: ME$WLS_HealthStatus_OverallHealthStatus:OverallHealthState The value of OverallHealthState is Component:threadpool,State:HEALTH_WARN,MBean:ThreadPoolRuntime,ReasonCode:[ThreadPool has stuck threads]
+
+Summary 3 : 	Weblogic Server: ME$WLS_HealthStatus_OverallHealthStatus:OverallHealthState The value of OverallHealthState is Component:Service Bus Kernel(Application),State:HEALTH_CRITICAL,MBean:Service Bus Kernel,ReasonCode:[Symtom{STUCK_THREADS,HIGH,d...[40]...

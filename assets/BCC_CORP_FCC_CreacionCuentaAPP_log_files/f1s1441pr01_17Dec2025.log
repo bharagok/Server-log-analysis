@@ -1,0 +1,422 @@
+####<Dec 15, 2025 3:00:12 PM PET> <Error> <JDBC> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)'> <weblogic> <BEA1-11BA6C21D6FC5FA05A1A> <> <1765828812354> <BEA-001112> <Test "SELECT 1 FROM DUAL" set up for pool "FLEXTEST.WORLD" failed with exception: "java.sql.SQLRecoverableException: Closed Statement".> 
+####<Dec 15, 2025 3:27:42 PM PET> <Error> <HTTP> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '14' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1765830462038> <BEA-101020> <[ServletContext@1533326229[app:FXBPER module:FXBPER path:/FXBPER spec-version:null]] Servlet failed with Exception
+java.lang.NullPointerException
+> 
+####<Dec 15, 2025 4:04:28 PM PET> <Error> <HTTP> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1765832668828> <BEA-101020> <[ServletContext@1533326229[app:FXBPER module:FXBPER path:/FXBPER spec-version:null]] Servlet failed with Exception
+java.lang.NullPointerException
+> 
+####<Dec 15, 2025 4:41:17 PM PET> <Error> <HTTP> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '19' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1765834877468> <BEA-101020> <[ServletContext@1533326229[app:FXBPER module:FXBPER path:/FXBPER spec-version:null]] Servlet failed with Exception
+java.lang.NullPointerException
+> 
+####<Dec 15, 2025 5:02:44 PM PET> <Error> <HTTP> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '14' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1765836164538> <BEA-101020> <[ServletContext@1533326229[app:FXBPER module:FXBPER path:/FXBPER spec-version:null]] Servlet failed with Exception
+java.lang.NullPointerException
+> 
+####<Dec 15, 2025 5:50:48 PM PET> <Error> <HTTP> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '35' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1765839048508> <BEA-101020> <[ServletContext@1533326229[app:FXBPER module:FXBPER path:/FXBPER spec-version:null]] Servlet failed with Exception
+java.lang.NullPointerException
+	at jsp_servlet.__extlovdef._jspService(__extlovdef.java:335)
+	at weblogic.servlet.jsp.JspBase.service(JspBase.java:34)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:227)
+	at weblogic.servlet.internal.StubSecurityHelper.invokeServlet(StubSecurityHelper.java:125)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:301)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:184)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.wrapRun(WebAppServletContext.java:3747)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:3714)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+	at weblogic.servlet.internal.WebAppServletContext.securedExecute(WebAppServletContext.java:2283)
+	at weblogic.servlet.internal.WebAppServletContext.execute(WebAppServletContext.java:2182)
+	at weblogic.servlet.internal.ServletRequestImpl.run(ServletRequestImpl.java:1499)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:263)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:221)
+> 
+####<Dec 16, 2025 12:37:18 PM PET> <Error> <HTTP> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '14' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1765906638458> <BEA-101020> <[ServletContext@1533326229[app:FXBPER module:FXBPER path:/FXBPER spec-version:null]] Servlet failed with Exception
+java.lang.NullPointerException
+> 
+####<Dec 16, 2025 12:52:23 PM PET> <Error> <HTTP> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '10' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1765907543345> <BEA-101020> <[ServletContext@1533326229[app:FXBPER module:FXBPER path:/FXBPER spec-version:null]] Servlet failed with Exception
+java.lang.NullPointerException
+> 
+####<Dec 16, 2025 1:14:19 PM PET> <Error> <HTTP> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '10' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1765908859798> <BEA-101020> <[ServletContext@1533326229[app:FXBPER module:FXBPER path:/FXBPER spec-version:null]] Servlet failed with Exception
+java.lang.NullPointerException
+> 
+####<Dec 16, 2025 1:20:32 PM PET> <Error> <HTTP> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '33' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1765909232706> <BEA-101020> <[ServletContext@1533326229[app:FXBPER module:FXBPER path:/FXBPER spec-version:null]] Servlet failed with Exception
+java.lang.NullPointerException
+> 
+####<Dec 16, 2025 1:20:43 PM PET> <Error> <HTTP> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '4' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1765909243799> <BEA-101020> <[ServletContext@1533326229[app:FXBPER module:FXBPER path:/FXBPER spec-version:null]] Servlet failed with Exception
+java.lang.NullPointerException
+> 
+####<Dec 16, 2025 4:14:14 PM PET> <Error> <HTTP> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '40' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1765919654420> <BEA-101020> <[ServletContext@1533326229[app:FXBPER module:FXBPER path:/FXBPER spec-version:null]] Servlet failed with Exception
+java.lang.NullPointerException
+	at jsp_servlet.__extlovdef._jspService(__extlovdef.java:335)
+	at weblogic.servlet.jsp.JspBase.service(JspBase.java:34)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:227)
+	at weblogic.servlet.internal.StubSecurityHelper.invokeServlet(StubSecurityHelper.java:125)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:301)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:184)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.wrapRun(WebAppServletContext.java:3747)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:3714)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+	at weblogic.servlet.internal.WebAppServletContext.securedExecute(WebAppServletContext.java:2283)
+	at weblogic.servlet.internal.WebAppServletContext.execute(WebAppServletContext.java:2182)
+	at weblogic.servlet.internal.ServletRequestImpl.run(ServletRequestImpl.java:1499)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:263)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:221)
+> 
+####<Dec 16, 2025 4:15:57 PM PET> <Error> <HTTP> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '19' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1765919757533> <BEA-101020> <[ServletContext@1533326229[app:FXBPER module:FXBPER path:/FXBPER spec-version:null]] Servlet failed with Exception
+java.lang.NullPointerException
+	at jsp_servlet.__extlovdef._jspService(__extlovdef.java:335)
+	at weblogic.servlet.jsp.JspBase.service(JspBase.java:34)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:227)
+	at weblogic.servlet.internal.StubSecurityHelper.invokeServlet(StubSecurityHelper.java:125)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:301)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:184)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.wrapRun(WebAppServletContext.java:3747)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:3714)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+	at weblogic.servlet.internal.WebAppServletContext.securedExecute(WebAppServletContext.java:2283)
+	at weblogic.servlet.internal.WebAppServletContext.execute(WebAppServletContext.java:2182)
+	at weblogic.servlet.internal.ServletRequestImpl.run(ServletRequestImpl.java:1499)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:263)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:221)
+> 
+####<Dec 16, 2025 5:46:17 PM PET> <Error> <HTTP> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '28' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1765925177847> <BEA-101020> <[ServletContext@1533326229[app:FXBPER module:FXBPER path:/FXBPER spec-version:null]] Servlet failed with Exception
+java.lang.NullPointerException
+	at jsp_servlet.__extlovdef._jspService(__extlovdef.java:335)
+	at weblogic.servlet.jsp.JspBase.service(JspBase.java:34)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:227)
+	at weblogic.servlet.internal.StubSecurityHelper.invokeServlet(StubSecurityHelper.java:125)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:301)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:184)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.wrapRun(WebAppServletContext.java:3747)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:3714)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+	at weblogic.servlet.internal.WebAppServletContext.securedExecute(WebAppServletContext.java:2283)
+	at weblogic.servlet.internal.WebAppServletContext.execute(WebAppServletContext.java:2182)
+	at weblogic.servlet.internal.ServletRequestImpl.run(ServletRequestImpl.java:1499)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:263)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:221)
+> 
+####<Dec 16, 2025 6:00:59 PM PET> <Error> <WebLogicServer> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '25' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1765926059346> <BEA-000337> <[STUCK] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)' has been busy for "1,823" seconds working on the request "Workmanager: default, Version: 0, Scheduled=true, Started=true, Started time: 1823570 ms
+[
+POST /BCO_CORP_FCC_CreacionCuentaAPP_v1.0/creacionCuentaPt HTTP/1.1
+Content-Type: text/xml
+ECID-Context: 1.006HX_6khwbCWr1_zt0FyW000LDK00WIev;kXjhlfCWq6GRjNTI^PKCk0CCGNOP9TINfJJGrHFNuKSSm9RLl4PDm6TIk1CKk8TO0cRRmHROgLQB^TRSi5OUoUBSjHQB5OST_IURXSQGgHROfIJRsJJRhGVRiLQRoJTDFJMGRTKW3JOTsLKS^HOT_JLSgKCTmLTP
+SOAPAction: "http://mdwcorp.falabella.com/WLS/wsdl/BCO/CORP/FCC/Cuenta/Creacion/CreacionCuenta-v1.0"
+User-Agent: Java1.8.0_144
+Accept: text/html, image/gif, image/jpeg, */*; q=.2
+Content-Length: 949
+Connection: Keep-Alive
+X-Forwarded-For: 10.235.177.4
+Proxy-Client-IP: 10.235.177.4
+X-WebLogic-KeepAliveSecs: 30
+X-WebLogic-Request-ClusterInfo: true
+x-weblogic-cluster-hash: plKy+pMoIcq30jofWv+u8Q3lwEk
+
+]", which is more than the configured time (StuckThreadMaxTime) of "1,800" seconds. Stack trace:
+	java.net.SocketInputStream.socketRead0(Native Method)
+	java.net.SocketInputStream.read(SocketInputStream.java:153)
+	java.net.SocketInputStream.read(SocketInputStream.java:122)
+	weblogic.socket.JSSEFilterImpl.readFromNetwork(JSSEFilterImpl.java:409)
+	weblogic.socket.JSSEFilterImpl.handleUnwrapResults(JSSEFilterImpl.java:542)
+	weblogic.socket.JSSEFilterImpl.unwrapAndHandleResults(JSSEFilterImpl.java:462)
+	weblogic.socket.JSSEFilterImpl.doHandshake(JSSEFilterImpl.java:82)
+	weblogic.socket.JSSEFilterImpl.doHandshake(JSSEFilterImpl.java:66)
+	weblogic.socket.JSSEFilterImpl.doHandshake(JSSEFilterImpl.java:61)
+	weblogic.socket.JSSEFilterImpl.write(JSSEFilterImpl.java:396)
+	weblogic.socket.JSSESocket$JSSEOutputStream.write(JSSESocket.java:89)
+	java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	java.io.FilterOutputStream.flush(FilterOutputStream.java:140)
+	weblogic.net.http.HttpURLConnection.writeRequests(HttpURLConnection.java:191)
+	weblogic.net.http.HttpURLConnection.getInputStream(HttpURLConnection.java:411)
+	weblogic.net.http.SOAPHttpsURLConnection.getInputStream(SOAPHttpsURLConnection.java:37)
+	weblogic.net.http.HttpURLConnection.getResponseCode(HttpURLConnection.java:1034)
+	com.sun.xml.ws.transport.http.client.HttpClientTransport.readResponseCodeAndMessage(HttpClientTransport.java:218)
+	com.sun.xml.ws.transport.http.client.HttpTransportPipe.process(HttpTransportPipe.java:204)
+	com.sun.xml.ws.transport.http.client.HttpTransportPipe.processRequest(HttpTransportPipe.java:124)
+	com.sun.xml.ws.transport.DeferredTransportPipe.processRequest(DeferredTransportPipe.java:118)
+	com.sun.xml.ws.api.pipe.Fiber.__doRun(Fiber.java:866)
+	com.sun.xml.ws.api.pipe.Fiber._doRun(Fiber.java:815)
+	com.sun.xml.ws.api.pipe.Fiber.doRun(Fiber.java:778)
+	com.sun.xml.ws.api.pipe.Fiber.runSync(Fiber.java:680)
+	com.sun.xml.ws.client.Stub.process(Stub.java:272)
+	com.sun.xml.ws.client.sei.SEIStub.doProcess(SEIStub.java:153)
+	com.sun.xml.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:115)
+	com.sun.xml.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:95)
+	com.sun.xml.ws.client.sei.SEIStub.invoke(SEIStub.java:136)
+	com.sun.proxy.$Proxy1951.pgmact(Unknown Source)
+	sun.reflect.GeneratedMethodAccessor786.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:606)
+	weblogic.wsee.jaxws.spi.ClientInstanceInvocationHandler.invoke(ClientInstanceInvocationHandler.java:87)
+	com.sun.proxy.$Proxy289.pgmact(Unknown Source)
+	corp.bco.fcc.cuenta.creacion.model.autoriza7.Autoriza7AltaV42PE.registrarA7(Autoriza7AltaV42PE.java:218)
+	corp.bco.fcc.cuenta.creacion.model.autoriza7.Autoriza7Alta.registrarA7(Autoriza7Alta.java:49)
+	corp.bco.fcc.cuenta.creacion.model.CreacionCuentaBean.cuentaCorrienteCrear(CreacionCuentaBean.java:108)
+	sun.reflect.GeneratedMethodAccessor635.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:606)
+	com.bea.core.repackaged.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:310)
+	com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:182)
+	com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:149)
+	com.bea.core.repackaged.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:131)
+	com.bea.core.repackaged.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:119)
+	com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	com.oracle.pitchfork.spi.MethodInvocationVisitorImpl.visit(MethodInvocationVisitorImpl.java:34)
+	weblogic.ejb.container.injection.EnvironmentInterceptorCallbackImpl.callback(EnvironmentInterceptorCallbackImpl.java:54)
+	com.oracle.pitchfork.spi.EnvironmentInterceptor.invoke(EnvironmentInterceptor.java:42)
+	com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	com.bea.core.repackaged.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89)
+	com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	com.bea.core.repackaged.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:131)
+	com.bea.core.repackaged.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:119)
+	com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	com.bea.core.repackaged.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:204)
+	com.sun.proxy.$Proxy284.cuentaCorrienteCrear(Unknown Source)
+	corp.bco.fcc.cuenta.creacion.model.CreacionCuenta_vynbi8_CreacionCuentaLocalImpl.__WL_invoke(Unknown Source)
+	weblogic.ejb.container.internal.SessionLocalMethodInvoker.invoke(SessionLocalMethodInvoker.java:39)
+	corp.bco.fcc.cuenta.creacion.model.CreacionCuenta_vynbi8_CreacionCuentaLocalImpl.cuentaCorrienteCrear(Unknown Source)
+	corp.bco.fcc.cuenta.creacion.model.ws.CreacionCuentaPtImpl.creacionCuentaOp(CreacionCuentaPtImpl.java:56)
+	sun.reflect.GeneratedMethodAccessor634.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:606)
+	weblogic.wsee.jaxws.WLSInstanceResolver$WLSInvoker.invoke(WLSInstanceResolver.java:95)
+	weblogic.wsee.jaxws.WLSInstanceResolver$WLSInvoker.invoke(WLSInstanceResolver.java:76)
+	com.sun.xml.ws.server.InvokerTube$2.invoke(InvokerTube.java:151)
+	com.sun.xml.ws.server.sei.EndpointMethodHandlerImpl.invoke(EndpointMethodHandlerImpl.java:268)
+	com.sun.xml.ws.server.sei.SEIInvokerTube.processRequest(SEIInvokerTube.java:100)
+	com.sun.xml.ws.api.pipe.Fiber.__doRun(Fiber.java:866)
+	com.sun.xml.ws.api.pipe.Fiber._doRun(Fiber.java:815)
+	com.sun.xml.ws.api.pipe.Fiber.doRun(Fiber.java:778)
+	com.sun.xml.ws.api.pipe.Fiber.runSync(Fiber.java:680)
+	com.sun.xml.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:403)
+	com.sun.xml.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:575)
+	com.sun.xml.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:258)
+	com.sun.xml.ws.transport.http.servlet.ServletAdapter.handle(ServletAdapter.java:140)
+	weblogic.wsee.jaxws.WLSServletAdapter.handle(WLSServletAdapter.java:177)
+	weblogic.wsee.jaxws.HttpServletAdapter$AuthorizedInvoke.run(HttpServletAdapter.java:708)
+	weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+	weblogic.security.service.SecurityManager.runAs(SecurityManager.java:146)
+	weblogic.wsee.util.ServerSecurityHelper.authenticatedInvoke(ServerSecurityHelper.java:103)
+	weblogic.wsee.jaxws.HttpServletAdapter$3.run(HttpServletAdapter.java:311)
+	weblogic.wsee.jaxws.HttpServletAdapter.post(HttpServletAdapter.java:336)
+	weblogic.wsee.jaxws.JAXWSServlet.doRequest(JAXWSServlet.java:99)
+	weblogic.servlet.http.AbstractAsyncServlet.service(AbstractAsyncServlet.java:99)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:227)
+	weblogic.servlet.internal.StubSecurityHelper.invokeServlet(StubSecurityHelper.java:125)
+	weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:301)
+	weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:184)
+	weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.wrapRun(WebAppServletContext.java:3750)
+	weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:3714)
+	weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+	weblogic.servlet.internal.WebAppServletContext.securedExecute(WebAppServletContext.java:2283)
+	weblogic.servlet.internal.WebAppServletContext.execute(WebAppServletContext.java:2182)
+	weblogic.servlet.internal.ServletRequestImpl.run(ServletRequestImpl.java:1499)
+	weblogic.work.ExecuteThread.execute(ExecuteThread.java:263)
+	weblogic.work.ExecuteThread.run(ExecuteThread.java:221)
+> 
+####<Dec 16, 2025 6:01:59 PM PET> <Error> <WebLogicServer> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '31' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1765926119349> <BEA-000337> <[STUCK] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)' has been busy for "1,883" seconds working on the request "Workmanager: default, Version: 0, Scheduled=true, Started=true, Started time: 1883580 ms
+[
+POST /BCO_CORP_FCC_CreacionCuentaAPP_v1.0/creacionCuentaPt HTTP/1.1
+Content-Type: text/xml
+ECID-Context: 1.006HX_6khwbCWr1_zt0FyW000LDK00WIev;kXjhlfCWq6GRjNTI^PKCk0CCGNOP9TINfJJGrHFNuKSSm9RLl4PDm6TIk1CKk8TO0cRRmHROgLQB^TRSi5OUoUBSjHQB5OST_IURXSQGgHROfIJRsJJRhGVRiLQRoJTDFJMGRTKW3JOTsLKS^HOT_JLSgKCTmLTP
+SOAPAction: "http://mdwcorp.falabella.com/WLS/wsdl/BCO/CORP/FCC/Cuenta/Creacion/CreacionCuenta-v1.0"
+User-Agent: Java1.8.0_144
+Accept: text/html, image/gif, image/jpeg, */*; q=.2
+Content-Length: 949
+Connection: Keep-Alive
+X-Forwarded-For: 10.235.177.4
+Proxy-Client-IP: 10.235.177.4
+X-WebLogic-KeepAliveSecs: 30
+X-WebLogic-Request-ClusterInfo: true
+x-weblogic-cluster-hash: plKy+pMoIcq30jofWv+u8Q3lwEk
+
+]", which is more than the configured time (StuckThreadMaxTime) of "1,800" seconds. Stack trace:
+	java.net.SocketInputStream.socketRead0(Native Method)
+	java.net.SocketInputStream.read(SocketInputStream.java:153)
+	java.net.SocketInputStream.read(SocketInputStream.java:122)
+	weblogic.socket.JSSEFilterImpl.readFromNetwork(JSSEFilterImpl.java:409)
+	weblogic.socket.JSSEFilterImpl.handleUnwrapResults(JSSEFilterImpl.java:542)
+	weblogic.socket.JSSEFilterImpl.unwrapAndHandleResults(JSSEFilterImpl.java:462)
+	weblogic.socket.JSSEFilterImpl.doHandshake(JSSEFilterImpl.java:82)
+	weblogic.socket.JSSEFilterImpl.doHandshake(JSSEFilterImpl.java:66)
+	weblogic.socket.JSSEFilterImpl.doHandshake(JSSEFilterImpl.java:61)
+	weblogic.socket.JSSEFilterImpl.write(JSSEFilterImpl.java:396)
+	weblogic.socket.JSSESocket$JSSEOutputStream.write(JSSESocket.java:89)
+	java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	java.io.FilterOutputStream.flush(FilterOutputStream.java:140)
+	weblogic.net.http.HttpURLConnection.writeRequests(HttpURLConnection.java:191)
+	weblogic.net.http.HttpURLConnection.getInputStream(HttpURLConnection.java:411)
+	weblogic.net.http.SOAPHttpsURLConnection.getInputStream(SOAPHttpsURLConnection.java:37)
+	weblogic.net.http.HttpURLConnection.getResponseCode(HttpURLConnection.java:1034)
+	com.sun.xml.ws.transport.http.client.HttpClientTransport.readResponseCodeAndMessage(HttpClientTransport.java:218)
+	com.sun.xml.ws.transport.http.client.HttpTransportPipe.process(HttpTransportPipe.java:204)
+	com.sun.xml.ws.transport.http.client.HttpTransportPipe.processRequest(HttpTransportPipe.java:124)
+	com.sun.xml.ws.transport.DeferredTransportPipe.processRequest(DeferredTransportPipe.java:118)
+	com.sun.xml.ws.api.pipe.Fiber.__doRun(Fiber.java:866)
+	com.sun.xml.ws.api.pipe.Fiber._doRun(Fiber.java:815)
+	com.sun.xml.ws.api.pipe.Fiber.doRun(Fiber.java:778)
+	com.sun.xml.ws.api.pipe.Fiber.runSync(Fiber.java:680)
+	com.sun.xml.ws.client.Stub.process(Stub.java:272)
+	com.sun.xml.ws.client.sei.SEIStub.doProcess(SEIStub.java:153)
+	com.sun.xml.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:115)
+	com.sun.xml.ws.client.sei.SyncMethodHandler.invoke(SyncMethodHandler.java:95)
+	com.sun.xml.ws.client.sei.SEIStub.invoke(SEIStub.java:136)
+	com.sun.proxy.$Proxy1951.pgmact(Unknown Source)
+	sun.reflect.GeneratedMethodAccessor786.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:606)
+	weblogic.wsee.jaxws.spi.ClientInstanceInvocationHandler.invoke(ClientInstanceInvocationHandler.java:87)
+	com.sun.proxy.$Proxy289.pgmact(Unknown Source)
+	corp.bco.fcc.cuenta.creacion.model.autoriza7.Autoriza7AltaV42PE.registrarA7(Autoriza7AltaV42PE.java:218)
+	corp.bco.fcc.cuenta.creacion.model.autoriza7.Autoriza7Alta.registrarA7(Autoriza7Alta.java:49)
+	corp.bco.fcc.cuenta.creacion.model.CreacionCuentaBean.cuentaCorrienteCrear(CreacionCuentaBean.java:108)
+	sun.reflect.GeneratedMethodAccessor635.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:606)
+	com.bea.core.repackaged.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:310)
+	com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:182)
+	com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:149)
+	com.bea.core.repackaged.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:131)
+	com.bea.core.repackaged.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:119)
+	com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	com.oracle.pitchfork.spi.MethodInvocationVisitorImpl.visit(MethodInvocationVisitorImpl.java:34)
+	weblogic.ejb.container.injection.EnvironmentInterceptorCallbackImpl.callback(EnvironmentInterceptorCallbackImpl.java:54)
+	com.oracle.pitchfork.spi.EnvironmentInterceptor.invoke(EnvironmentInterceptor.java:42)
+	com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	com.bea.core.repackaged.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:89)
+	com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	com.bea.core.repackaged.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:131)
+	com.bea.core.repackaged.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:119)
+	com.bea.core.repackaged.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:171)
+	com.bea.core.repackaged.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:204)
+	com.sun.proxy.$Proxy284.cuentaCorrienteCrear(Unknown Source)
+	corp.bco.fcc.cuenta.creacion.model.CreacionCuenta_vynbi8_CreacionCuentaLocalImpl.__WL_invoke(Unknown Source)
+	weblogic.ejb.container.internal.SessionLocalMethodInvoker.invoke(SessionLocalMethodInvoker.java:39)
+	corp.bco.fcc.cuenta.creacion.model.CreacionCuenta_vynbi8_CreacionCuentaLocalImpl.cuentaCorrienteCrear(Unknown Source)
+	corp.bco.fcc.cuenta.creacion.model.ws.CreacionCuentaPtImpl.creacionCuentaOp(CreacionCuentaPtImpl.java:56)
+	sun.reflect.GeneratedMethodAccessor634.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:606)
+	weblogic.wsee.jaxws.WLSInstanceResolver$WLSInvoker.invoke(WLSInstanceResolver.java:95)
+	weblogic.wsee.jaxws.WLSInstanceResolver$WLSInvoker.invoke(WLSInstanceResolver.java:76)
+	com.sun.xml.ws.server.InvokerTube$2.invoke(InvokerTube.java:151)
+	com.sun.xml.ws.server.sei.EndpointMethodHandlerImpl.invoke(EndpointMethodHandlerImpl.java:268)
+	com.sun.xml.ws.server.sei.SEIInvokerTube.processRequest(SEIInvokerTube.java:100)
+	com.sun.xml.ws.api.pipe.Fiber.__doRun(Fiber.java:866)
+	com.sun.xml.ws.api.pipe.Fiber._doRun(Fiber.java:815)
+	com.sun.xml.ws.api.pipe.Fiber.doRun(Fiber.java:778)
+	com.sun.xml.ws.api.pipe.Fiber.runSync(Fiber.java:680)
+	com.sun.xml.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:403)
+	com.sun.xml.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:575)
+	com.sun.xml.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:258)
+	com.sun.xml.ws.transport.http.servlet.ServletAdapter.handle(ServletAdapter.java:140)
+	weblogic.wsee.jaxws.WLSServletAdapter.handle(WLSServletAdapter.java:177)
+	weblogic.wsee.jaxws.HttpServletAdapter$AuthorizedInvoke.run(HttpServletAdapter.java:708)
+	weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+	weblogic.security.service.SecurityManager.runAs(SecurityManager.java:146)
+	weblogic.wsee.util.ServerSecurityHelper.authenticatedInvoke(ServerSecurityHelper.java:103)
+	weblogic.wsee.jaxws.HttpServletAdapter$3.run(HttpServletAdapter.java:311)
+	weblogic.wsee.jaxws.HttpServletAdapter.post(HttpServletAdapter.java:336)
+	weblogic.wsee.jaxws.JAXWSServlet.doRequest(JAXWSServlet.java:99)
+	weblogic.servlet.http.AbstractAsyncServlet.service(AbstractAsyncServlet.java:99)
+	javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:227)
+	weblogic.servlet.internal.StubSecurityHelper.invokeServlet(StubSecurityHelper.java:125)
+	weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:301)
+	weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:184)
+	weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.wrapRun(WebAppServletContext.java:3750)
+	weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:3714)
+	weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+	weblogic.servlet.internal.WebAppServletContext.securedExecute(WebAppServletContext.java:2283)
+	weblogic.servlet.internal.WebAppServletContext.execute(WebAppServletContext.java:2182)
+	weblogic.servlet.internal.ServletRequestImpl.run(ServletRequestImpl.java:1499)
+	weblogic.work.ExecuteThread.execute(ExecuteThread.java:263)
+	weblogic.work.ExecuteThread.run(ExecuteThread.java:221)
+> 
+####<Dec 16, 2025 6:51:08 PM PET> <Error> <HTTP> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '23' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <> <1765929068772> <BEA-101020> <[ServletContext@1533326229[app:FXBPER module:FXBPER path:/FXBPER spec-version:null]] Servlet failed with Exception
+java.lang.NullPointerException
+	at jsp_servlet.__extlovdef._jspService(__extlovdef.java:335)
+	at weblogic.servlet.jsp.JspBase.service(JspBase.java:34)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:227)
+	at weblogic.servlet.internal.StubSecurityHelper.invokeServlet(StubSecurityHelper.java:125)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:301)
+	at weblogic.servlet.internal.ServletStubImpl.execute(ServletStubImpl.java:184)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.wrapRun(WebAppServletContext.java:3747)
+	at weblogic.servlet.internal.WebAppServletContext$ServletInvocationAction.run(WebAppServletContext.java:3714)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+	at weblogic.servlet.internal.WebAppServletContext.securedExecute(WebAppServletContext.java:2283)
+	at weblogic.servlet.internal.WebAppServletContext.execute(WebAppServletContext.java:2182)
+	at weblogic.servlet.internal.ServletRequestImpl.run(ServletRequestImpl.java:1499)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:263)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:221)
+> 
+####<Dec 16, 2025 8:11:57 PM PET> <Alert> <WebLogicServer> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '40' for queue: 'weblogic.kernel.Default (self-tuning)'> <weblogic> <> <> <1765933917059> <BEA-000396> <Server shutdown has been requested by weblogic> 
+####<Dec 16, 2025 8:12:08 PM PET> <Error> <HTTP> <f1s01441> <f1s1441pr01> <[ACTIVE] ExecuteThread: '40' for queue: 'weblogic.kernel.Default (self-tuning)'> <weblogic> <> <> <1765933928623> <BEA-101268> <ServletContext@1533326229[app:FXBPER module:FXBPER path:/FXBPER spec-version:null]: Failed while destroying servlet: BranchController.
+java.lang.NullPointerException
+	at com.ofss.infra.controller.BranchController.destroy(BranchController.java:383)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletDestroyAction.run(StubSecurityHelper.java:303)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:321)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:120)
+	at weblogic.servlet.internal.StubSecurityHelper.destroyServlet(StubSecurityHelper.java:81)
+	at weblogic.servlet.internal.StubLifecycleHelper.destroyOneInstance(StubLifecycleHelper.java:144)
+	at weblogic.servlet.internal.StubLifecycleHelper.destroy(StubLifecycleHelper.java:134)
+	at weblogic.servlet.internal.ServletStubImpl.destroy(ServletStubImpl.java:437)
+	at weblogic.servlet.internal.WebAppServletContext.destroyServlets(WebAppServletContext.java:3288)
+	at weblogic.servlet.internal.WebAppServletContext.destroy(WebAppServletContext.java:3242)
+	at weblogic.servlet.internal.ServletContextManager.destroyContext(ServletContextManager.java:247)
+	at weblogic.servlet.internal.HttpServer.unloadWebApp(HttpServer.java:465)
+	at weblogic.servlet.internal.WebAppModule.destroyContexts(WebAppModule.java:1556)
+	at weblogic.servlet.internal.WebAppModule.deactivate(WebAppModule.java:514)
+	at weblogic.application.internal.flow.ModuleStateDriver$2.previous(ModuleStateDriver.java:387)
+	at weblogic.application.utils.StateMachineDriver.previousState(StateMachineDriver.java:223)
+	at weblogic.application.utils.StateMachineDriver.previousState(StateMachineDriver.java:215)
+	at weblogic.application.internal.flow.ModuleStateDriver.deactivate(ModuleStateDriver.java:141)
+	at weblogic.application.internal.flow.ScopedModuleDriver.deactivate(ScopedModuleDriver.java:206)
+	at weblogic.application.internal.flow.ModuleListenerInvoker.deactivate(ModuleListenerInvoker.java:261)
+	at weblogic.application.internal.flow.DeploymentCallbackFlow$2.previous(DeploymentCallbackFlow.java:547)
+	at weblogic.application.utils.StateMachineDriver.previousState(StateMachineDriver.java:223)
+	at weblogic.application.utils.StateMachineDriver.previousState(StateMachineDriver.java:215)
+	at weblogic.application.internal.flow.DeploymentCallbackFlow.deactivate(DeploymentCallbackFlow.java:192)
+	at weblogic.application.internal.flow.DeploymentCallbackFlow.deactivate(DeploymentCallbackFlow.java:184)
+	at weblogic.application.internal.BaseDeployment$2.previous(BaseDeployment.java:677)
+	at weblogic.application.utils.StateMachineDriver.previousState(StateMachineDriver.java:223)
+	at weblogic.application.utils.StateMachineDriver.previousState(StateMachineDriver.java:215)
+	at weblogic.application.internal.BaseDeployment.deactivate(BaseDeployment.java:234)
+	at weblogic.application.internal.EarDeployment.deactivate(EarDeployment.java:59)
+	at weblogic.application.internal.DeploymentStateChecker.deactivate(DeploymentStateChecker.java:198)
+	at weblogic.deploy.internal.targetserver.AppContainerInvoker.deactivate(AppContainerInvoker.java:99)
+	at weblogic.deploy.internal.targetserver.BasicDeployment.deactivate(BasicDeployment.java:266)
+	at weblogic.deploy.internal.targetserver.BasicDeployment.deactivateFromServerLifecycle(BasicDeployment.java:476)
+	at weblogic.management.deploy.internal.DeploymentAdapter$1.doDeactivate(DeploymentAdapter.java:73)
+	at weblogic.management.deploy.internal.DeploymentAdapter.deactivate(DeploymentAdapter.java:215)
+	at weblogic.management.deploy.internal.AppTransition$6.transitionApp(AppTransition.java:66)
+	at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:240)
+	at weblogic.management.deploy.internal.ConfiguredDeployments.deactivate(ConfiguredDeployments.java:198)
+	at weblogic.management.deploy.internal.ConfiguredDeployments.undeploy(ConfiguredDeployments.java:191)
+	at weblogic.management.deploy.internal.DeploymentServerService.shutdownApps(DeploymentServerService.java:195)
+	at weblogic.management.deploy.internal.DeploymentServerService.shutdownHelper(DeploymentServerService.java:127)
+	at weblogic.application.ApplicationShutdownService.halt(ApplicationShutdownService.java:142)
+	at weblogic.t3.srvr.ServerServicesManager.haltInternal(ServerServicesManager.java:505)
+	at weblogic.t3.srvr.ServerServicesManager.halt(ServerServicesManager.java:337)
+	at weblogic.t3.srvr.T3Srvr.shutdown(T3Srvr.java:1180)
+	at weblogic.t3.srvr.T3Srvr.forceShutdown(T3Srvr.java:1084)
+	at weblogic.t3.srvr.ServerRuntime.forceShutdown(ServerRuntime.java:349)
+	at weblogic.server.RemoteLifeCycleOperationsImpl.forceShutdown(RemoteLifeCycleOperationsImpl.java:57)
+	at weblogic.server.RemoteLifeCycleOperationsImpl_WLSkel.invoke(Unknown Source)
+	at weblogic.rmi.internal.BasicServerRef.invoke(BasicServerRef.java:667)
+	at weblogic.rmi.internal.BasicServerRef$1.run(BasicServerRef.java:522)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:363)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:146)
+	at weblogic.rmi.internal.BasicServerRef.handleRequest(BasicServerRef.java:518)
+	at weblogic.rmi.internal.wls.WLSExecuteRequest.run(WLSExecuteRequest.java:118)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:263)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:221)
+> 
